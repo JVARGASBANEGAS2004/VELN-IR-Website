@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VELNÖIR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #0d0d0d;
+      color: #f0c94c;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid #f0c94c;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #f0c94c;
+      font-size: 16px;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1618354691261-8c355d1e5a33') no-repeat center/cover;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #f0c94c;
+      padding: 20px;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      background-color: rgba(0,0,0,0.5);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #f0c94c;
+      padding-bottom: 10px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      width: 260px;
+      padding: 15px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product h4 {
+      margin: 10px 0 5px;
+      color: #fff;
+    }
+    .product p {
+      margin: 0;
+    }
+    .buy-btn {
+      margin-top: 10px;
+      background: #f0c94c;
+      border: none;
+      padding: 8px 16px;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #000;
+      color: #f0c94c;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 1px solid #f0c94c;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VELNÖIR</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#collection">Colección</a>
+      <a href="#about">Nosotros</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Elegancia atemporal. Estilo real.</h2>
+  </section>
+
+  <section id="collection">
+    <h3 class="section-title">⇝ DESTACADOS DE LA COLECCIÓN ⇜</h3>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/250x300/111/FFD700?text=Oversize+VELNOIR" alt="Oversize Tee" />
+        <h4>Camiseta Oversize VELNÖIR</h4>
+        <p>Bs100</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x300/222/FFD700?text=Camisa+Beige" alt="Camisa" />
+        <h4>Camisa Clásica Beige</h4>
+        <p>Bs100</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x300/333/FFD700?text=Pantalón+Vintage" alt="Pantalón" />
+        <h4>Pantalón Recto Vintage</h4>
+        <p>Bs200</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x300/444/FFD700?text=Chamarra" alt="Chamarra" />
+        <h4>Chamarra VELNÖIR</h4>
+        <p>Bs300</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x300/555/FFD700?text=Polera" alt="Polera" />
+        <h4>Polera HOLLISTER</h4>
+        <p>Bs100</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x300/666/FFD700?text=Chaqueta" alt="Chaqueta" />
+        <h4>Chaqueta</h4>
+        <p>Bs150</p>
+        <button class="buy-btn">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h3 class="section-title">Sobre Nosotros</h3>
+    <p style="text-align:center; max-width:800px; margin:auto;">
+      VELNÖIR nace de la autenticidad, la moda y la elegancia clásica. Diseñamos ropa con esencia juvenil, calidad y compromiso. Inspirados por la estética vintage y oversize, creamos piezas únicas que respetan la historia del estilo y la llevan al presente con actitud.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h3 class="section-title">Contacto</h3>
+    <p style="text-align:center;">Whats https://wa.me/message/TFZBVFJ7BLZWA1</p>
+    <p style="text-align:center;">📱 Instagram | TikTok http://www.tiktok.com/@velnir4 | Facebook</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VELNÖIR. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
